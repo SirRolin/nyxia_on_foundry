@@ -1,5 +1,5 @@
 {
-  "id": "nyxia.classless",
+  "id": "nyxia_classless",
   "title": "Nyxia Classless",
   "description": "Custom system builder to build character sheets and rulesets for any game.",
   "version": "0.1.1.1",
@@ -7,7 +7,7 @@
     "minimum": "10",
     "verified": "11"
   },
-  "templateVersion": 1,
+  "template.version": 1,
   "authors": [{
       "name": "Sir Rolin"
     }],
