@@ -48,5 +48,6 @@
   "url":       "https://github.com/SirRolin/nyxia_on_foundry",
   "manifest":  "https://github.com/SirRolin/nyxia_on_foundry/system.json",
   "download":  "https://github.com/SirRolin/nyxia_on_foundry/build.zip",
-  "changelog": "https://gitlab.com/rolnl/sandbox-system-builder/-/raw/v0.14.4.4/changelog.md"
+  "changelog": "https://gitlab.com/rolnl/sandbox-system-builder/-/raw/v0.14.4.4/changelog.md",
+  "initiative": "@character.initiative.value"
 }
