@@ -1,8 +1,8 @@
 {
   "id": "nyxia_on_foundry",
   "title": "Nyxia Classless",
-  "description": "Custom system builder to build character sheets and rulesets for any game.",
-  "version": "0.0.0.1",
+  "description": "My Trial in Creating a System. Still very much WIP.",
+  "version": "0.0.0.2",
   "compatibility": {
     "verified": "13"
   },
@@ -19,16 +19,6 @@
     "styles/system-settings.css",
     "styles/sandbox-icons-font.css"
   ],
-  "relationships": {    
-    "requires": [{
-      "id": "_CodeMirror",
-      "type": "module",
-      "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json",
-      "compatibility": {
-        "verified": "5.58.3-fvtt5"
-      }
-    }]
-  },
   "packs": [],
   "socket": true,  
   "languages": [
@@ -43,7 +33,7 @@
     "units": "m"
   },
   "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "spell_power",
+  "secondaryTokenAttribute": "mana",
   "url":       "https://github.com/SirRolin/nyxia_on_foundry",
   "manifest":  "https://raw.githubusercontent.com/SirRolin/nyxia_on_foundry/refs/heads/Dev2/system.json",
   "download":  "https://github.com/SirRolin/nyxia_on_foundry/archive/refs/heads/Dev2.zip",
