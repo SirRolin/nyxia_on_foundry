@@ -2,10 +2,9 @@
   "id": "nyxia_on_foundry",
   "title": "Nyxia Classless",
   "description": "Custom system builder to build character sheets and rulesets for any game.",
-  "version": "0.1.1.1",
+  "version": "0.0.0.1",
   "compatibility": {
-    "minimum": "10",
-    "verified": "11"
+    "verified": "13"
   },
   "authors": [{
       "name": "Sir Rolin"
@@ -46,7 +45,7 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "spell_power",
   "url":       "https://github.com/SirRolin/nyxia_on_foundry",
-  "manifest":  "https://github.com/SirRolin/nyxia_on_foundry/blob/Dev2/system.json",
+  "manifest":  "https://raw.githubusercontent.com/SirRolin/nyxia_on_foundry/refs/heads/Dev2/system.json",
   "download":  "https://github.com/SirRolin/nyxia_on_foundry/archive/refs/heads/Dev2.zip",
   "initiative": "@character.initiative.value"
 }
