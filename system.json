@@ -10,7 +10,7 @@
       "name": "Sir Rolin"
     }],
   "esmodules": [
-    "module/sandbox.js"
+    "Initialize.js"
   ],
   "styles": [
     "styles/sandbox.css",
@@ -37,5 +37,5 @@
   "url":       "https://github.com/SirRolin/nyxia_on_foundry",
   "manifest":  "https://raw.githubusercontent.com/SirRolin/nyxia_on_foundry/refs/heads/Dev2/system.json",
   "download":  "https://github.com/SirRolin/nyxia_on_foundry/archive/refs/heads/Dev2.zip",
-  "initiative": "@character.initiative.value"
+  "initiative": "1D20+@foundry.appv1.sheets.ActorSheet.data.attributes.initiative * 1.01"
 }

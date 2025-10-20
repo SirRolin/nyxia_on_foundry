@@ -1,0 +1,29 @@
+<form class="{{cssClass}}" autocomplete="off">
+	<header class="sheet-header">
+			<img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64"/>
+			<h1><input name="name" type="text" value="{{actor.name}}" placeholder="Name"/></h1>
+	</header>
+	<div>
+		<table>
+			<tr>
+				<th>Initiative</th><!--
+				<th>Mana</th>
+				<th>Max-Mana</th>
+				<th>Mana.max</th>-->
+			</tr>
+			<tr>
+				<td>
+					<input name="system.initiative" type="text" value="{{ this.actor.system.initiative }}" data-dtype="Number" />
+				</td><!--
+				<td>
+					<input name="system.attributes.mana.value" type="text" value="{{source.value}}" data-dtype="Number" />
+				</td>
+				<td>
+					<input name="system.attributes.max-mana" type="text" value="{{source.value}}" data-dtype="Number" />
+				</td>
+				<td>
+					<input name="system.attributes.mana.max" type="text" value="{{source.value}}" data-dtype="Number" />
+				</td>-->
+			</tr>
+	</div>
+</form>
