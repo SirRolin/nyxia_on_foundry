@@ -28,7 +28,15 @@ export class CharacterData extends foundry.abstract.TypeDataModel {
       skills: new SchemaField({
 
       }),
-      initiative: new NumberField({ required: true, integer: true, initial: 1})
+      initiative: new NumberField({ required: true, integer: true, initial: 1}),
+      damageTaken: new SchemaField({
+        value: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        max: new NumberField({ required: true, integer: true, min: 0, initial: 50 })
+      }),
+      stamina: new SchemaField({
+        value: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        max: new NumberField({ required: true, integer: true, min: 0, initial: 0 })
+      })
       /*// templates for making more
       health: new SchemaField({
         value: new NumberField({ required: true, integer: true, min: 0, initial: 10 }),
@@ -49,6 +57,16 @@ export class CharacterData extends foundry.abstract.TypeDataModel {
     const skills = source.skills ?? {};
     if(source.initiative == null){
       source.initiative = 2;
+    }
+    if(source.damageTaken == null){
+      source.damageTaken = {};
+      source.damageTaken.value = 0;
+      source.damageTaken.max = 50;
+    }
+    if(source.stamina == null){
+      source.stamina = {};
+      source.stamina.value = 0;
+      source.stamina.max = 0;
     }
     return super.migrateData(source);
   }

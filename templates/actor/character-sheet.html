@@ -6,24 +6,28 @@
 	<div>
 		<table>
 			<tr>
-				<th>Initiative</th><!--
-				<th>Mana</th>
-				<th>Max-Mana</th>
-				<th>Mana.max</th>-->
+				<th>Initiative</th>
+				<th>Damage Taken</th>
+				<th>Max Damage Taken</th>
+				<th>Stamina</th>
+				<th>Max Stamina</th>
 			</tr>
 			<tr>
 				<td>
 					<input name="system.initiative" type="text" value="{{ this.actor.system.initiative }}" data-dtype="Number" />
-				</td><!--
-				<td>
-					<input name="system.attributes.mana.value" type="text" value="{{source.value}}" data-dtype="Number" />
 				</td>
 				<td>
-					<input name="system.attributes.max-mana" type="text" value="{{source.value}}" data-dtype="Number" />
+					<input name="system.damageTaken.value" type="text" value="{{ this.actor.system.damageTaken.value }}" data-dtype="Number" />
 				</td>
 				<td>
-					<input name="system.attributes.mana.max" type="text" value="{{source.value}}" data-dtype="Number" />
-				</td>-->
+					<input name="system.damageTaken.max" type="text" value="{{ this.actor.system.damageTaken.max }}" data-dtype="Number" />
+				</td>
+				<td>
+					<input name="system.stamina.value" type="text" value="{{ this.actor.system.stamina.value }}" data-dtype="Number" />
+				</td>
+				<td>
+					<input name="system.stamina.max" type="text" value="{{ this.actor.system.stamina.max }}" data-dtype="Number" />
+				</td>
 			</tr>
 	</div>
 </form>

@@ -20,7 +20,7 @@ Hooks.once("init", function() {
   // Resources that can be bars and values
   CONFIG.Actor.trackableAttributes = {
     character: {
-      bar: ["initiative"],
+      bar: ["damageTaken", "stamina"],
       value: ["initiative"]
     }
   };
